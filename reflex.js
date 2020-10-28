@@ -136,7 +136,7 @@ document.getElementById("hardbox").onclick=function() {
 				
 }
 
-
+// end code
 
 
 			
