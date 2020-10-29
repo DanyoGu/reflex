@@ -18,15 +18,15 @@ body {
 
 #easybox {
 				display: none;
-				position: relative;
+				position: absolute;
 		}
 #mediumbox {
 				display: none;
-				position: relative;
+				position: absolute;
 		}
 #hardbox {
 				display: none;
-				position: relative;
+				position: absolute;
 		}
 #easybox img {
 	width: 200px;
@@ -81,7 +81,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 40px;
+	padding: 3%;
 	border: 2px solid rgb(126, 126, 126);
 	border-radius: 25px;
 	background-color: rgb(202, 202, 202, 0.3);
@@ -127,10 +127,10 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 40px;
+	padding: 2%;
 	border: 2px solid rgb(126, 126, 126);
 	border-radius: 25px;
-	margin-left: 38%;
+	margin-left: 37.5%;
 	margin-top: 5%;
 	z-index: 1;
 	width: 20%;

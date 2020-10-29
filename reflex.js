@@ -19,14 +19,17 @@ function makeBox() {
         document.getElementById(difficulty).style.borderRadius="25px";
                             
         let top = Math.random();
-        top = top * 750;
+        top = top * 95;
         let left = Math.random();
-        left = left * 1150; 
+        left = left * 95;
+        
+        console.log(top);
+        console.log(left);
                             
-        document.getElementById(difficulty).style.top = top + "px";
-        document.getElementById(difficulty).style.left = left + "px"; 
+        document.getElementById(difficulty).style.top = top + "%";
+        document.getElementById(difficulty).style.left = left + "%"; 
                     
-        document.getElementById(difficulty).style.display="block";
+        document.getElementById(difficulty).style.display="flex";
                         
         createdTime=Date.now();
 
