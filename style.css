@@ -92,7 +92,6 @@ body {
 	color: white;
 }
 .personal-div {
-    position: fixed;
     display: flex;
     top: 85%;
     left: 46%;
